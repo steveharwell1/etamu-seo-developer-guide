@@ -1,23 +1,11 @@
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-  page: true
-  socials:
-    x: yangshunz
-    github: yangshun
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+harwellstephen:
+  name: Stephen Harwell
+  title: Manager of Digital Strategy and Experience Analytics
+  url: https://www.tamuc.edu/people/stephen-harwell/
+  image_url: https://www.tamuc.edu/wp-content/uploads/2024/07/StephenHarwell-cropped-new-bg.jpg
   page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
+    permalink: '/stephen-harwell-articles'
   socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+    github: steveharwell1
+    linkedin: steve-harwell
+

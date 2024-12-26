@@ -1,0 +1,59 @@
+---
+slug: release-notes-november-2024
+title: November 2024 Release Notes
+authors: harwellstephen
+tags: [release, major]
+---
+
+# November 2024 Release Notes
+This release focuses on accessibility improvements, performance optimizations, and enhanced content management flexibility across the website.
+
+:::warning
+## Impact on content and processes
+Update your publishing processes! Customize the page title in Yoast for best SEO.
+Statistics facts area will need to be manually updated to the new structwure.
+:::
+<!-- truncate -->
+
+## WordPress 6.6 Update
+With the WordPress 6.6 update, several new features enhance navigation, layout customization, and post management:
+- Command Palette: Quickly access tasks and navigate between pages using the new command palette, accessible via `Command + K`.
+- Featured Image Placement: Featured images now appear at the top of the "Page" tab within the left panel for quicker access.
+- Excerpt Placement: The "Excerpt" field has been repositioned to the top of the "Post" tab in the left panel for enhanced post workflow.
+- Block Grouping Shortcut: Use `Command + G` to group blocks easily, streamlining page and post structure.
+- New Grid Block: The upgraded grid block offers superior layout flexibility compared to the columns block. Team decisions will be made regarding its use to best suit layout needs.
+## Key Enhancements by TAMUC web team
+The following updates bring increased usability, enhanced customization, and optimized performance to improve both user and contributor experiences.
+### Title Text Standardization
+**Page Title in browser tab and Google search results.** All title text remains visible on the published page by default. (Example: Freshman: Steps to Apply)
+:::note
+Menu and breadcrumb displays will continue to exclude text before a colon (:) in page titles.
+:::
+:::note
+SEO Optimization with Yoast: Update your publishing processes! Because of this change, it is now important to customize the page title with Yoast for optimal SEO.
+:::
+### YouTube Playlist Block
+- **The YouTube playlist block has been updated to automatically play the first video listed in the block.** It then plays the rest of the videos in the playlist in the order they are arranged on YouTube, not the order they are arranged on WordPress
+- **A “Prevent autoplay” checkbox is now present.** Activating it will unmute the video and not autoplay the playlist.
+- **The blank video function has been removed due to changes in YouTube’s API functionality, simplifying the playlist experience.** This update was already pushed back in September.
+### Edit and View Links on Multi-Selects Updated
+- **Marcomm Editors** see “Edit” and are taken directly to the edit page.
+- **Contributors** will see “New Revision" instead of "Edit".
+- This removes a backdoor where contributors could make edits to pages.
+### Improved Emergency Alerts Placement
+Emergency Alerts have been relocated to the left side of the interface for improved user visibility.
+### Enhanced Mobile Footer Usability
+Footer Padding: Footer items now feature padding to ensure all tap targets meet accessibility standards (minimum 24x24px) on mobile devices.
+### WP 6.6 Compatibility Checks
+Revisionary Plugin Verification: Confirmed that the Revisionary plugin functions as expected with WordPress 6.6, maintaining a smooth revision experience for contributors.
+### CSS Migration Verification
+Customizer CSS: Confirmed successful migration of customizer CSS, retaining custom styling after the update.
+### Optimized Script Loading
+Script Efficiency: Non-essential scripts are now loaded conditionally. frontend.js and carouselSections.js only load on relevant pages, enhancing page load performance.
+### Link to submit feedback is customized
+When someone clicks the feedback link the URL of the page they are on will be passed to the form. Also, if they are logged in their email address will be passed to the form.
+### Stat facts css update
+Accessibility improvements have been made to the style and structure of the stats facts template.
+### Other interface updates
+Question series block now ignores missing fields like the background image field.
+
