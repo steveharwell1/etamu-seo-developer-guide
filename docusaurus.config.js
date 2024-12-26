@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'ETAMU Developer and SEO Guide',
   tagline: 'Let\'s get things done.',
-  favicon: 'img/favicon.ico',
+  favicon: 'https://www.tamuc.edu/wp-content/themes/tamuc/assets/img/logo/logo_lion.svg',
 
   // Set the production url of your site here
   url: 'https://etamu-seo-developer-guide.pages.dev/',
@@ -74,12 +74,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'https://www.tamuc.edu/wp-content/themes/tamuc/assets/img/logo/logo_lion.svg',
       navbar: {
         title: 'East Texas A&M Developer Guide',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Lion',
+          src: 'https://www.tamuc.edu/wp-content/themes/tamuc/assets/img/logo/logo_lion.svg',
         },
         items: [
           {
