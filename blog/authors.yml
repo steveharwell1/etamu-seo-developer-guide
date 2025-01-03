@@ -9,3 +9,13 @@ harwellstephen:
     github: steveharwell1
     linkedin: steve-harwell
 
+bryanpaul:
+  name: Paul Bryan
+  title: Director of Web Applications
+  url: https://www.tamuc.edu/people/paul-bryan/
+  image_url: https://www.tamuc.edu/wp-content/uploads/2019/06/paulBryan.jpg
+  page:
+    permalink: '/paul-bryan-articles'
+  socials:
+    linkedin: paul-bryan-a7710022
+
