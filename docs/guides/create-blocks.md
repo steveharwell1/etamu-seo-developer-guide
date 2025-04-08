@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 # Block Development
 Procedures for git code submission and launching to staging and production.
