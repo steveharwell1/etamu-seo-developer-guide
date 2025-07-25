@@ -45,9 +45,6 @@ export default function Home() {
           <li>
             <a href="/docs/category/reference">Reference</a>
           </li>
-          <li>
-            <a>SEO</a>
-          </li>
         </ul>
       </main>
     </Layout>
