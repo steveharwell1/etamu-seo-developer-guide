@@ -1,4 +1,24 @@
 # www.etamu.edu Release Notes
+## 2025-10-01
+### Updates
+- Add standard footer to 404 pages
+- Search: upgrade catalog to use search parameters
+- Search: update urls to use etamu.edu over tamuc.edu
+- Update caption styles to use accessible size
+- Contact Block: Social icon urls update to etamu.edu over tamuc.edu
+- Add logic to disable the fullscreen mode when loading the content editor
+- Profiles: Remove large photo at top of all profiles.
+- Add support for the Breadcrumb, menu/`<title>`, and content names for guides and programs to be individual customized
+
+### Fixes
+- Program title block updated to allow use on non-program pages
+- Update IFrame messaging logic to detect browser support better
+- Guide pages: when content has no headings the table of contents should not throw errors
+
+## 2025-09-17
+### Updates
+- Removed default h2 from guides
+- Updated robots.txt to have a sitemap
 ## 2025-09-04
 ### Fixes
 - On news pages, related department sidebar link is no longer broken
