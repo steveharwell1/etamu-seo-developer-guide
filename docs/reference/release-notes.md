@@ -1,4 +1,10 @@
 # www.etamu.edu Release Notes
+## 2025-10-17
+### Updates
+- Moved arrow at the bottom of the headers block over
+- Updated the **Submit News** button to match the new url
+- Updated the Quality Assurance controls to support the new Laserfiche form
+
 ## 2025-10-01
 ### Updates
 - Add standard footer to 404 pages
