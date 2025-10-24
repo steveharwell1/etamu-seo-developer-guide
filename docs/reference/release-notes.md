@@ -1,4 +1,13 @@
 # www.etamu.edu Release Notes
+## 2025-10-24
+### Updates
+- Reduced logo size
+- Improved mobile spacing for people block
+
+### Fixes
+- Improved interaction speed for the menu and search panels
+
+
 ## 2025-10-17
 ### Updates
 - Moved arrow at the bottom of the headers block over
