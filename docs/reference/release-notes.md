@@ -1,4 +1,15 @@
 # www.etamu.edu Release Notes
+## 2025-11-04
+### Updates
+- Removed redundant logged in controls for profile pages
+- Added an alert to accordion containers to notify editors when accordions have duplicate anchors
+- Switched the menu to load menu data from a network resource
+
+### Maintenance
+- Updated docker configuration and instructions for installing the site locally
+## 2025-10-28
+### Updates
+- Added an archive for news posts at /news/public/
 ## 2025-10-24
 ### Updates
 - Reduced logo size
@@ -13,7 +24,6 @@
 - Moved arrow at the bottom of the headers block over
 - Updated the **Submit News** button to match the new url
 - Updated the Quality Assurance controls to support the new Laserfiche form
-
 ## 2025-10-01
 ### Updates
 - Add standard footer to 404 pages
