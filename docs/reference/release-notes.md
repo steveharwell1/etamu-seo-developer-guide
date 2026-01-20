@@ -1,4 +1,25 @@
 # www.etamu.edu Release Notes
+## 2025-11-21
+### Frontend
+- Name change core. Updated directory search url.
+- News article byline departments now also use homepage url in addition to site menu items
+- First draft of improving program headlines to look better with the _on this page_ links
+- Removed environmental photos from appearing as headshots on profile pages.
+- Added bottom margin to navigation buttons on archive pages
+- Calls to action on mobile now stick more closely to the bottom of the page. Updated to work better with iOs Tahoe. Still a first draft
+- New header images now use a 16:9 ratio like other image placements
+- Striped tables use standard colors fixing a contrast issue
+- Emergency announcements are now landmarked for screenreaders
+- Department tiles on news articles now use a blue background
+- News block now shows only one full width card when only one article is available
+
+### Editor
+- Reusable sections don't show the other pages they're used on unless you check a block setting
+- Added color #cbd5dd as _Misty Sky_ to the built in list of background options
+- Accordions can now be ungrouped while preserving their headings and subheadings
+
+
+
 ## 2025-11-04
 ### Updates
 - Removed redundant logged in controls for profile pages
