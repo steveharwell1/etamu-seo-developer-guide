@@ -1,4 +1,28 @@
 # www.etamu.edu Release Notes
+
+
+## 2026-01-20   
+### For Readers
+
+### For Editors
+
+### For Devlopers
+- fix: update is_tamuc_news_page to catch searches
+- Refactor news header layout and styling (#357)
+- feat: Introduce `get_page_type()` to the `Page` interface and `DB_Page` class, and refactor `is_stub()` to utilize it with an updated page type string.
+- switch stub language to permanent redirect
+- feat: Introduce and integrate a `page_type_header` partial to display notices for redirect or proof pages on singular posts.
+- Updated draft and stub to proof and redirect
+- fix: Update WordPress admin bar item ID in logged-in styles from 147592 to 472415. (#352)
+- Remove the `ETAMU_All_News_Archive` class and its inclusion from `functions.php`. (#351)
+- feat: Add custom title formatting for department taxonomy archives. (#349)
+- Update issue templates
+- 284 make pages with redirects usig the proofing redirect field not visible in menus (#345)
+- Stubs selectively replace href in nav
+- added stub logic
+- Updated type of page options (#336)
+- hot fix cta back button
+
 ## 2025-11-21
 ### Frontend
 - Name change core. Updated directory search url.

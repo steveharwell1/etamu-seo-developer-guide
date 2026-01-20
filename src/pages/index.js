@@ -2,13 +2,12 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
@@ -29,23 +28,28 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <main>
-        <ul>
-          <li>
-            <a href="/docs/intro">Intro</a>
-          </li>
-          <li>
-            <a href="/docs/category/guides">Guides</a>
-          </li>
-          <li>
-            <a href="/docs/category/reference">Reference</a>
-          </li>
-        </ul>
+        <section className="container margin-vert--xl">
+          <div className="row">
+            <div className="col col--4">
+              <h3>🚀 Getting Started</h3>
+              <p>
+                New to the project? Start with our <Link to="/docs/intro">Introduction</Link> to understand the core concepts and get up and running in minutes.
+              </p>
+            </div>
+            <div className="col col--4">
+              <h3>📖 Guides</h3>
+              <p>
+                Check out our <Link to="/docs/category/guides">Guides</Link> for step-by-step instructions on common tasks, best practices, and advanced workflows.
+              </p>
+            </div>
+          </div>
+        </section>
       </main>
     </Layout>
   );
