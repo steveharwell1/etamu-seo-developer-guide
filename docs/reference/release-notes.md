@@ -1,27 +1,34 @@
 # www.etamu.edu Release Notes
 
 
-## 2026-01-20   
+## 2026-01-20
 ### For Readers
+1. News pages have a new header that makes the news site feel more like a subsite. ![News Header](/img/news-header.png)
+2. Departments should now have main headings reflecting their names with the word "news" added for search engine purposes. ![Department Header](/img/department-header.png)
 
 ### For Editors
+1. Pages that are not yet published or are permanent redirects will show a proofing notice in the header and in the menu. These notices will only appear when logged in or using the `redirect=none` query parameter. ![Proofing Notice](/img/proofing-notice.png)
+2. The revision button listed in the black editing bar should be visible once again.
+3. News articles should be marked with the public category to be visible on the news page archive.
+4. To mark pages as permanent redirects, use the proofing redirect field and select the type of page as Redirect/Stub.
+5. To mark pages as proofing pages, fill in the redirect field. Type of page does not matter.
 
-### For Devlopers
-- fix: update is_tamuc_news_page to catch searches
+### For Developers
+- fix: Update `is_tamuc_news_page` to catch searches
 - Refactor news header layout and styling (#357)
 - feat: Introduce `get_page_type()` to the `Page` interface and `DB_Page` class, and refactor `is_stub()` to utilize it with an updated page type string.
-- switch stub language to permanent redirect
+- Switch stub language to permanent redirect
 - feat: Introduce and integrate a `page_type_header` partial to display notices for redirect or proof pages on singular posts.
 - Updated draft and stub to proof and redirect
 - fix: Update WordPress admin bar item ID in logged-in styles from 147592 to 472415. (#352)
 - Remove the `ETAMU_All_News_Archive` class and its inclusion from `functions.php`. (#351)
 - feat: Add custom title formatting for department taxonomy archives. (#349)
 - Update issue templates
-- 284 make pages with redirects usig the proofing redirect field not visible in menus (#345)
+- Make pages with redirects using the proofing redirect field not visible in menus (#284, #345)
 - Stubs selectively replace href in nav
-- added stub logic
+- Added stub logic
 - Updated type of page options (#336)
-- hot fix cta back button
+- Hotfix: CTA back button
 
 ## 2025-11-21
 ### Frontend
