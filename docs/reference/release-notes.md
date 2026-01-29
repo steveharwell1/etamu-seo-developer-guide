@@ -1,5 +1,8 @@
 # www.etamu.edu Release Notes
 
+## 2026-01-29
+### For Editors
+1. Added a new acf field for QA Schedule for subpages
 
 ## 2026-01-20
 ### For Readers
